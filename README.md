@@ -13,6 +13,9 @@ ObjectivePaths is a wrapper for .NET filesystem operations. ObjectivePaths attem
     // LINQ Querying:
     var bigFilesInDirectoryB = directory.GetFiles().Where(x=> x.Length > 10737418240);
     
+    // File Copying:
+    var newFile = directory.GetFile("newNonExistingFile.txt");
+    fileTwoLevelsDown.CopyToAsync(newFile, overwrite: false, CancellationToken.None);
 
 Contributors: please review LICENSE.txt before using the library or submitting a contribution. All Subissions must be released under the MIT License (https://opensource.org/license/mit/) in order to be compatible with the project's dual-license model.
 

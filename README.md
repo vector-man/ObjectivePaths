@@ -1,5 +1,8 @@
 # ObjectivePaths
-ObjectivePaths is a wrapper for .NET filesystem operations. ObjectivePaths attempts to make dealing with filesystem paths less error-prone, by treating each directory and file as an object. View Demo project to see an example.
+ObjectivePaths for .NET is a library for filesystem operations. ObjectivePaths attempts to make dealing with the filesystem easier, by treating each directory and file as an object. 
+
+Because of its design, custom filesystems can be plugged in to further enhance the library.
+View Demo project to see an example. 
 
 ## Examples:
     // Chaining:

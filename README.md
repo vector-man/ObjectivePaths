@@ -11,7 +11,7 @@ ObjectivePaths is a wrapper for .NET filesystem operations. ObjectivePaths attem
     var fileTwoLevelsDown = directory.GetDirectory("A").GetDirectry("B").GetFile("C.txt");
     
     // LINQ Querying:
-    var bigFilesInDirectoryB = directory.GetFiles().Where(x=> x.Length > 10737418240);
+    var bigFilesInDirectoryB = fileTwoLevelsDown.GetFiles().Where(x=> x.Length > 10737418240);
     
     // File Copying:
     var newFile = directory.GetFile("newNonExistingFile.txt");

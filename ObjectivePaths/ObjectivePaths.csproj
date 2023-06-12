@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common.Logging.Core" Version="3.4.1" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="NLog" Version="5.2.0" />
+    <PackageReference Include="System.IO.Abstractions" Version="19.2.29" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Hashing\" />
+  </ItemGroup>
+
+</Project>

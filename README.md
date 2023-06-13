@@ -5,12 +5,12 @@ Because of its design, custom filesystems can be plugged in to further enhance t
 View Demo project to see an example. 
 
 ## Examples:
-    // Chaining:
-    // Create FileSystemService
+    // First, create a FileSystemService.
     var fileSystemService = new LocalFileSystemService(new FileSystem());
     
-    // Get a file called "C.txt" in sub directory "A\B" of someAbsolutePath:
-    var directory = fileSystemService.GetDirectory(someAbsolutePath);
+    // Chaining:
+    // Get a file called "C.txt" in sub directory "A\B" of "C:\Users\":
+    var directory = fileSystemService.GetDirectory("C:\Users\");
     var fileTwoLevelsDown = directory.GetDirectory("A").GetDirectry("B").GetFile("C.txt");
     
     // LINQ Querying:

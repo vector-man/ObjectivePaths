@@ -31,4 +31,7 @@ Contributors to this project are welcome to add their attribution information to
 <add your credit here>
     
 # ObjectivePaths Copyright 
-Copyright (c) 2023 Michael D. Corbett (Github: @vector-man).
+Copyright (c) 2023 Michael D. Corbett
+    
+Email: michael@mdcorbett.com 
+Github: @vector-man.
